@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.login-box, #cadastro-container {
+  background: white;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.botoes button:nth-child(1) { background: green; color: white; }
+.botoes button:nth-child(2) { background: orange; color: white; }
+.botoes button:nth-child(3) { background: deepskyblue; color: white; }
+.botoes button:nth-child(4) { background: lightblue; color: black; }
+.botoes button:nth-child(5) { background: red; color: white; }
+
+.navegacao button {
+  background: black;
+  color: white;
+  margin: 5px;
+}body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.login-box, #cadastro-container {
+  background: white;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.botoes button:nth-child(1) { background: green; color: white; }
+.botoes button:nth-child(2) { background: orange; color: white; }
+.botoes button:nth-child(3) { background: deepskyblue; color: white; }
+.botoes button:nth-child(4) { background: lightblue; color: black; }
+.botoes button:nth-child(5) { background: red; color: white; }
+
+.navegacao button {
+  background: black;
+  color: white;
+  margin: 5px;
+}

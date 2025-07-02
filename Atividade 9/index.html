@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda de Contatos</title>
+  <link rel="stylesheet" href="trabalho.css">
+</head>
+<body>
+  <h2>AGENDA DE CONTATOS</h2>
+  <div id="login-container">
+    <div class="login-box">
+      <div class="logo">LOGO</div>
+      <input type="text" id="usuario" placeholder="Usuário">
+      <input type="password" id="senha" placeholder="Senha">
+      <button onclick="login()">ENTRAR</button>
+    </div>
+  </div>
+
+  <div id="cadastro-container" style="display:none;">
+    <h3>Cadastro de Contato</h3>
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="text" id="sobrenome" placeholder="Sobrenome">
+    <input type="text" id="endereco" placeholder="Endereço">
+    <input type="text" id="telefone" placeholder="Telefone">
+
+    <div class="botoes">
+      <button onclick="incluir()">INCLUIR</button>
+      <button onclick="editar()">EDITAR</button>
+      <button onclick="salvar()">SALVAR</button>
+      <button onclick="cancelar()">CANCELAR</button>
+      <button onclick="excluir()">EXCLUIR</button>
+    </div>
+
+    <div class="navegacao">
+      <button onclick="primeiro()">|&lt;</button>
+      <button onclick="anterior()">&lt;</button>
+      <button onclick="proximo()">&gt;</button>
+      <button onclick="ultimo()">&gt;|</button>
+    </div>
+  </div>
+
+  <script src="traba.js"></script>
+</body>
+</html>
